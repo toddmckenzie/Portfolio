@@ -10,8 +10,15 @@
     height: 80px;
     background-color: #35564F;   
     position: fixed;
+    
 }
 
+/* @media (max-width: 800px) {  how to do media queries in css.
+    .header {
+        background-color: blue;
+    }
+        
+    } */
 .header p {
     color: #DCDBD6;
     padding-top: 35px;
@@ -24,13 +31,28 @@ img {
 }
 
 .first {
-    margin-left: 35%;
-    @media screen and (max-width: 1200px) {
-        margin-left: 5%;
+    margin-left: 40%;
+    
+}
+@media screen and (max-width: 1400px) {
+    .first {
+        margin-left: 25%;
     }
+        
+}
+@media screen and (max-width: 1200px) {
+    .first {
+        margin-left: 15%;
+    }
+        
 }
 
-
+@media screen and (max-width: 1000px) {
+    .first {
+        margin-left: 5%;
+    }
+        
+}
 
 .header a {
     text-decoration: none;
@@ -58,6 +80,17 @@ img {
     max-width: 1500px;
     width: 100%;
     justify-content: space-between;
+}
+
+.first-section img {
+    height: calc(100vh - 80px);
+    max-width: 1500px;
+    width: 100%;
+}
+@media (min-height: 1200px){
+    .first-section img { 
+        height: 800px;
+    }
 }
 
 .credit {
