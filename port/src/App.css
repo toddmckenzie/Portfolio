@@ -1,0 +1,39 @@
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  position:fixed;
+  background-color: black;
+  margin-top: -20px;
+}
+
+.first {
+  margin-left: 30%;
+}
+.last {
+  margin-right: 10%;
+}
+a {
+  margin-top: 40px;
+  color: white;
+}
+
+.about {
+  padding-top: 110px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
