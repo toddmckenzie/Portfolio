@@ -8,9 +8,9 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  height: 140px;
   position:fixed;
-  background-color: black;
+  background-color:#72A98F;
   margin-top: -20px;
 }
 
@@ -21,8 +21,14 @@
   margin-right: 10%;
 }
 a {
-  margin-top: 40px;
-  color: white;
+  margin-top: 70px;
+  color: #433A3f;
+  font-size: 20px;
+  border: 1px solid red;
+  width: 100px;
+}
+a:hover {
+  font-size: 24px;
 }
 
 .about {
