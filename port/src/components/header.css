@@ -1,0 +1,28 @@
+.header {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+    position:fixed;
+    background-color:#72A98F;
+    margin-top: -20px;
+  }
+  
+  .first {
+    margin-left: 30%;
+  }
+  .last {
+    margin-right: 10%;
+  }
+  a {
+    margin-top: 70px;
+    color: #433A3f;
+    font-size: 22px;
+    width: 120px;
+    text-decoration: none;
+  }
+  a:hover {
+    font-size: 26px;
+  }
+  
