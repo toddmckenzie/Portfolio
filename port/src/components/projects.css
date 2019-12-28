@@ -1,3 +1,33 @@
 .projects {
-    padding-top: 250px;
+    padding-top: 200px;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+.db-img {
+    height: 600px;
+    width: auto;
+}
+
+p {
+    color: white;
+    width: 550px;
+    line-height: 1.5;
+}
+.words {
+    background-color: rgb(30,30,30);
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dorothy {
+    display: flex;
+    justify-content: space-around;
 }
