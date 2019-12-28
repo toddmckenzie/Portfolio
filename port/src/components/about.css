@@ -16,7 +16,8 @@
   .about-para {
       margin-left: 20px;
       color: white;
-
+      background-color: rgb(30,30,30);
+      padding-left: 15px;
   }
 
   p {
