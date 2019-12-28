@@ -5,7 +5,7 @@
     justify-content: space-between;
     height: 140px;
     position:fixed;
-    background-color:#72A98F;
+    background-color:#3D5A6C;
     margin-top: -20px;
   }
   
@@ -17,7 +17,8 @@
   }
   a {
     margin-top: 70px;
-    color: #433A3f;
+    /* color: #433A3f; */
+    color: white;
     font-size: 22px;
     width: 120px;
     text-decoration: none;
