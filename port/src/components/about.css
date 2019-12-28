@@ -1,5 +1,33 @@
 .about {
-    padding-top: 110px;
-
+    padding-top: 200px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
   }
   
+  .family {
+      width: 650px;
+      height: auto;
+      margin-left: 20px;
+      margin-top: 80px;
+      border-radius: 20px;
+  }
+
+  .about-para {
+      margin-left: 20px;
+      color: white;
+
+  }
+
+  p {
+      line-height: 1.5;
+      font-size: 16px;
+      margin-right: 20px;
+  }
+
+  h2 {
+      text-align: center;
+      margin-right: 20px;
+      font-size: 30px;
+
+  }

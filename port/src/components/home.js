@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './home.css';
 import todd from '../img/todd.jpg';
-
+import code from '../img/code.png';
 
 const Home = () => {
     const [ name, setName ] = useState('T');
@@ -24,9 +24,12 @@ const Home = () => {
     },[i, name, title, j])
 
     return (
-        <div className="home">
-            <img src={todd} className="pic"/>
-            <div>
+        <div className="home" style={{backgroundImage: `url(${code})`}}>
+            <div className="pic-holder">
+                <img src={todd} className="pic"/>
+            </div>
+            
+            <div className="name-title">
                 <h1 className="name">{name}</h1>
                 <h3 className="title">{title}</h3>
             </div>
