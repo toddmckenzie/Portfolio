@@ -1,8 +1,36 @@
 .skills {
     padding-top: 200px;
-    background-color: rgb(30,30,30);
+    height: 100vh;
 }
+
 
 li {
     color: white;
+    font-size: 26px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 2;
+}
+
+li:hover {
+    color: #CBEF43;
+}
+
+.box {
+    background-color: rgb(30,30,30);
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    border: 3px solid #CBEF43;
+}
+h1 {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.li-1 {
+    width: 50%;
 }

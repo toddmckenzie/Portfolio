@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './skills.css';
+import code from '../img/code-be.png';
+
 
 const Skills = () => {
     const [ title, setTitle ] = useState('')
@@ -16,27 +18,48 @@ const Skills = () => {
     },[title, i])
 
     return (
-        <div className="skills">
+        <div className="skills" style={{backgroundImage: `url(${code})`}}>
             <h1>{title}</h1>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Less</li>
-                <li>Sass</li>
-                <li>ReactJs</li>
-                <li>React Native</li>
-                <li>Redux</li>
-                <li>Styled Components</li>
-                <li>Material UI</li>
-                <li>Responsive Web Design</li>
-                <li>NodeJs</li>
-                <li>Express</li>
-                <li>SQL</li>
-                <li>Git</li>
-                <li>Data Structures</li>
-                <li>Algorithms</li>
-                <li>Trello</li>
-            </ul>
+            <div className="box">
+                <ul>
+                <div className="row">
+                    <li className="li-1">HTML</li>
+                    <li>CSS</li>
+                </div>
+                <div className="row">
+                    <li className="li-1">Less</li>
+                    <li>Sass</li>
+                </div>
+                <div className="row">
+                    <li className="li-1">ReactJs</li>
+                    <li>React Native</li>
+                </div>
+                <div className="row">
+                    <li className="li-1">Redux</li>
+                    <li>Styled Components</li>
+                </div>
+                <div className="row">
+                    <li className="li-1">Material UI</li>
+                    <li>Responsive Web Design</li>
+                </div>
+                <div className="row">
+                    <li className="li-1">NodeJs</li>
+                    <li>Express</li>
+                </div>
+                <div className="row">
+                    <li className="li-1">SQL</li>
+                    <li>Git</li>
+                </div>
+                <div className="row">
+                    <li className="li-1">Data Structures</li>
+                    <li>Algorithms</li>
+                </div>
+                <div className="row">
+                    <li className="li-1">Trello</li>
+                    <li>Soft skills</li>
+                </div>
+                </ul>
+            </div>
         </div>
     )
 }
