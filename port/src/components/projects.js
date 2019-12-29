@@ -26,7 +26,7 @@ const Projects = () => {
             <div className="dorothy">
                 <img src={db} className="db-img"/>
                 <div className="words bunker-words">
-                    <p>Dorothy's Bunker was a side project that I built by myself using react native on the front end and node.js with express framework on the backend.  I gathered storm locations in a spreadsheet and then used python to fetch the latitude and longitude from the google geocoding api to build my seed data for the backend. </p>
+                    <p>Dorothy's Bunker was a side project that I built by myself using react native and redux on the front end and node.js with express framework on the backend.  I gathered storm locations in a spreadsheet and then used python to fetch the latitude and longitude from the google geocoding api to build my seed data for the backend. </p>
                     <p>
                     The ultimate goal was so users could find a storm shelter near them to go to if severe weather is in the area or approaching.  Users can pull open the shelter they are close to and comment on the status of the shelter. 
                     </p>
@@ -59,6 +59,7 @@ const Projects = () => {
                     <div className="words tweet-words">
                         <p>Tweet better was the first react project that I helped build.  It was made during a build week after learning react.  Myself and another developer built the frontend in react and redux and the backend was built by two data scientists.</p>
                         <p>The idea behind tweet better was to evaluate your tweet before you actually post the tweet to twitter.  The backend rates the sentiment of the tweet and its displays the sentimate rating.</p>
+                        <p>The site is located at https://tweetbetterapp.netlify.com/.</p>
                     </div>
                     <img src={tweet} className="tweet-pic" />
                 </div>
