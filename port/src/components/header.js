@@ -18,9 +18,9 @@ const Header = () => {
             <Link to="/skills">
                 <a>Skills</a>
             </Link>
-            {/* <Link to="/contact">
-                <a className="/last">Contact</a>
-            </Link> */}
+            <Link to="/contact">
+                <a className="last">Contact</a>
+            </Link>
         </header>
     )
     
