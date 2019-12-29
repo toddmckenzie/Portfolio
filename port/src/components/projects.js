@@ -4,6 +4,7 @@ import code from '../img/code-pro.png';
 import db from '../img/db.png';
 import cloudstands from '../img/cloudstands.png';
 import didact from '../img/didact.png';
+import tweet from '../img/tweet-better.png';
 
 const Projects = () => {
     const [ title, setTitle ] = useState('')
@@ -18,7 +19,7 @@ const Projects = () => {
             }
         }, 300)
     },[title, i])
-
+    // style={{backgroundImage: `url(${code})`}}
     return (
         <div className="projects">
             <h1>{title}</h1>
@@ -52,6 +53,14 @@ const Projects = () => {
                         </p>
                         <p>My role as a team lead was to conduct daily standups in the morning.  During these standups we would go over our trello board to see what everyone is working on or what needs to be accomplished on the day.  I also pair programmed with multiple developers, hooked up mixpanel analytics, built the landing page, and provided assistance when needed.</p>
                     </div>
+                </div>
+
+                <div className="tweet">
+                    <div className="words tweet-words">
+                        <p>Tweet better was the first react project that I helped build.  It was made during a build week after learning react.  Myself and another developer built the frontend in react and redux and the backend was built by two data scientists.</p>
+                        <p>The idea behind tweet better was to evaluate your tweet before you actually post the tweet to twitter.  The backend rates the sentiment of the tweet and its displays the sentimate rating.</p>
+                    </div>
+                    <img src={tweet} className="tweet-pic" />
                 </div>
         </div>
     )
