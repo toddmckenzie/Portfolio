@@ -19,7 +19,6 @@ const Projects = () => {
             }
         }, 300)
     },[title, i])
-    // style={{backgroundImage: `url(${code})`}}
     return (
         <div className="projects">
             <h1>{title}</h1>
