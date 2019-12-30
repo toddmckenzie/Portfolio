@@ -44,5 +44,10 @@
 
 .github {
     font-size: 30px;
+}
 
+.contact-title {
+    width: 200px;
+    background-color:rgb(30,30,30);
+    margin: 20px auto;
 }
