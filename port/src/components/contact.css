@@ -2,3 +2,18 @@
     padding-top: 200px;
     height: 100vh;
 }
+
+.phone {
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.email {
+    font-size: 50px;
+}
+
+.box {
+    width: 500px;
+    height: 700px;
+    background-color: blue;
+}
