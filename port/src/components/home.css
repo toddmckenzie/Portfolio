@@ -33,3 +33,41 @@
     height: 660px;
     width: 440px;
 }
+
+@media (max-width: 600px){
+    .home {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pic {
+        height: auto;
+        width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: -100px;
+    }
+    .name-title {
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            
+    }
+    .name {
+        font-size: 30px;
+        margin-top: 40px;
+        background-color: rgb(30,30,30);
+        width: auto;
+    }
+   
+    .pic-holder {
+        width: auto;
+        height: auto;
+    }
+    .title {
+        background-color: rgb(30,30,30);
+        font-size: 30px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
