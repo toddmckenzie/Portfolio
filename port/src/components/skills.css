@@ -34,3 +34,20 @@ h1 {
 .li-1 {
     width: 50%;
 }
+@media (max-width: 600px){ 
+    .skills {
+        height: 100%;
+    }
+    .li {
+        margin-left: 2%;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .box {
+        width: 95%;
+        height: auto;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
