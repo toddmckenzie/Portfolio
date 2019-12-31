@@ -32,3 +32,24 @@
       font-size: 30px;
       height: 36px;
   }
+
+  @media (max-width: 600px){
+      .about {
+          flex-direction: column;
+          margin: 0;
+          height: auto;
+      }
+
+      .family {
+          width: 96%;
+          margin: 0;
+          margin-left: 2%;
+      }
+
+      .about-para p {
+          margin-left: 0;
+          width: 96%;
+          margin-right: 2%;
+      }
+   
+  }
