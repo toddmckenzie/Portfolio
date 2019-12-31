@@ -87,3 +87,67 @@ p {
     height: auto;
     margin-left: 30px;
 }
+
+@media (max-width: 600px){ 
+    .dorothy {
+        flex-direction: column;
+    }
+
+    .db-img {
+        height: auto;
+        width: 96%;
+        margin-left: 2%;
+    }
+    p {
+        width: 96%;
+    }
+
+    .words {
+        margin-left: 2%;
+        margin-right: 2%;
+        order: 2;
+    }
+    .cloud-div {
+        flex-direction: column;
+
+    }
+    .cloud {
+        width: 96%;
+        height: auto;
+        margin-left: 2%;
+        order: 1;
+    }
+
+    .bunker-words {
+        margin-top: 40px;
+    }
+
+    .didact-pic {
+        width: 96%;
+        height: auto;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .didact-div {
+        flex-direction: column;
+    }
+    .didact-words {
+        margin-top: 40px;
+    }
+
+    .tweet-words {
+        margin-top: 40px;
+        margin-left: 2%;
+        width: 86%;
+        padding-right: 0;
+    }
+    .tweet-pic {
+        width: 96%;
+        height: auto;
+        margin-left: 2%;
+    }
+    .tweet {
+        flex-direction: column;
+    }
+}

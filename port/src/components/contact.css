@@ -55,3 +55,55 @@
 .social {
     font-size: 30px;
 }
+
+@media (max-width: 600px){ 
+    .contact {
+        height: 100%;
+    }
+    .phone {
+        font-size: 16px;
+        margin: 0;
+        margin-left: 2%;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    .email {
+        font-size: 16px;
+        margin-bottom: 30px;
+        margin: 0;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    .box-contact {
+        width: 96%;
+        margin-left: 2%;
+        height: auto;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .contact-box {
+        width: 82%;
+        height: auto;
+        padding-right: 0;
+        padding-bottom: 0;
+        margin-left: 2%;
+    }
+    .twitter {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .linkedin {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .github {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .contact-title {
+        width: auto;
+    }
+    .social {
+        font-size: 16px;
+    }
+}

@@ -37,7 +37,7 @@ const Projects = () => {
                 <div className="cloud-div">
                     <div className="words">
                         <p>www.cloudstands.com was a 8 week labs project with a team of 6 other developers, a UX designer, and a team lead.  The first 2 weeks consisted of planning our feature canvases and the tech stack we were going to use.  The next 6 weeks we coded to make a usable product.</p>
-                        <p>The idea behind cloudstands was for small market owners and vendors to be able to get in contact with each other.  We built a site where the owner could put in the amount of booths the market had, the cost of the booths, and the days the market was open. The vendor could then get in there and rent booths from any market they wish to do business. The vendor could also see the other types of booths that was scheduled to be there that day in order to avoid be at a market with the same type of buisness.</p>
+                        <p>The idea behind cloudstands was for small market owners and vendors to be able to get in contact with each other.  We built a site where the owner could put in the amount of booths the market had, the cost of the booths, and the days the market was open. The vendor could then get in there and rent booths from any market they wish to do business. The vendor could also see the other types of booths that was scheduled to be there that day in order to avoid being at a market with the same type of buisness.</p>
                         <p>My role on cloudstands was as a frontend developer.  We used ReactJs and Redux for state management.</p>
                     </div>
                     <img src={cloudstands} className="cloud" />
