@@ -7,8 +7,8 @@
     position:fixed;
     background-color:#3D5A6C;
     margin-top: -20px;
-  }
-  
+}
+
   .first {
     margin-left: 20px;
   }
@@ -31,3 +31,20 @@
     color: #72A90F;
   }
   
+  @media (max-width: 600px){
+      .header {
+          flex-direction: column;
+          margin: 0 auto;
+          height: auto;
+          position: static;
+      }
+      a {
+          margin: 20px auto;
+          font-size: 36px;
+      }
+      .first {
+        margin-left: 0;
+      }
+      
+      
+  }
