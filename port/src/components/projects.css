@@ -139,11 +139,15 @@ p {
     .tweet-words {
         margin-top: 40px;
         margin-left: 2%;
-        width: 96%;
+        width: 86%;
+        padding-right: 0;
     }
     .tweet-pic {
         width: 96%;
         height: auto;
         margin-left: 2%;
+    }
+    .tweet {
+        flex-direction: column;
     }
 }
