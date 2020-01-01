@@ -32,6 +32,11 @@
       font-size: 30px;
       height: 36px;
   }
+  @media (max-height: 800px){
+    .about {
+        height: 180vh;
+    }
+}
 
   @media (max-width: 600px){
       .about {

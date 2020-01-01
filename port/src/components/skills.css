@@ -34,6 +34,13 @@ h1 {
 .li-1 {
     width: 50%;
 }
+
+@media (max-height: 600px){
+    .skills {
+        height: 200vh;
+    }
+}
+
 @media (max-width: 600px){ 
     .skills {
         height: 210vh;
