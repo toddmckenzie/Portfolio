@@ -37,6 +37,7 @@
           margin: 0 auto;
           height: auto;
           position: static;
+          overflow-x: hidden;
       }
       a {
           font-size: 36px;

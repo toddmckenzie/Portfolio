@@ -89,6 +89,9 @@ p {
 }
 
 @media (max-width: 600px){ 
+    .project {
+        overflow-x: hidden;
+    }
     .dorothy {
         flex-direction: column;
     }

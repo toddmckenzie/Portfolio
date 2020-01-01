@@ -64,6 +64,9 @@
 }
 
 @media (max-width: 600px){ 
+    .contact {
+        overflow-x: hidden;
+    }
     .phone {
         font-size: 16px;
         margin: 0;
