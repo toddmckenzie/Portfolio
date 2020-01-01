@@ -47,16 +47,17 @@
         margin-top: -100px;
     }
     .name-title {
-            width: auto;
-            display: flex;
-            flex-direction: column;
+        width: auto;
+        display: flex;
+        flex-direction: column;
             
     }
     .name {
         font-size: 30px;
         margin-top: 40px;
         background-color: rgb(30,30,30);
-        width: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
    
     .pic-holder {
