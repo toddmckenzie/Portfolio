@@ -7,7 +7,8 @@ const Contact = () => {
 
 
     return (
-        <div className="contact" style={{backgroundImage: `url(${code})`}}>
+        <div className="contact" >
+            <h1>UNDER CONSTRUCTION</h1>
             <h1 className="contact-title">Contact</h1>
             <div className="contact-box">
                 <p className="phone">Phone: 314-605-0504</p>

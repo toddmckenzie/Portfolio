@@ -1,6 +1,8 @@
 .contact {
     padding-top: 200px;
+    background-color: black;
     height: 100vh;
+    margin: 0 auto;
 }
 
 .phone {
@@ -16,21 +18,9 @@
     color: white;
 }
 
-.box-contact {
-    width: 500px;
-    height: 400px;
-    /* background-color: blue; */
-}
 
 .contact-box {
-    height: 350px;
-    width: 500px;
-    background-color: rgb(30,30,30);
     margin: 0 auto;
-    padding: 40px;
-    padding-right: 20px;
-    padding-bottom: 30px;
-    border: 3px solid #CBEF43;
 }
 
 
@@ -44,11 +34,10 @@
 
 .github {
     font-size: 30px;
+    margin: 0 auto;
 }
 
 .contact-title {
-    width: 200px;
-    background-color:rgb(30,30,30);
     margin: 20px auto;
 }
 
