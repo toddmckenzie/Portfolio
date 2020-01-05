@@ -1,67 +1,55 @@
 .about {
-    padding-top: 200px;
-    height: 100vh;
-    display: flex;
-    justify-content: space-around;
+    padding-top: 100px;
+    height: 100%;
     background-color: black;
   }
-  .construction {
-      font-size: 100px;
-      margin: 0 auto;
-      background-color: black;
-      color: white;
-  }
+ 
   .family {
       width: 650px;
-      height: auto;
-      margin-left: 20px;
+      height: 400px;
+      margin-left: 0px;
       margin-top: 80px;
       border-radius: 20px;
-  }
-
-  .about-para {
-      margin-left: 20px;
-      color: white;
-      background-color: rgb(30,30,30);
-      padding-left: 15px;
-  }
-
-  p {
-      line-height: 1.5;
-      font-size: 16px;
       margin-right: 20px;
   }
-
-  h2 {
-      text-align: center;
-      margin-right: 20px;
-      font-size: 30px;
-      height: 36px;
-  }
-  @media (max-height: 800px){
-    .about {
-        height: 180vh;
-    }
+.myphoto {
+    width: 350px;
+    height: 500px;
+    margin-right: 2%;
+    margin-left: 4%;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.about-para {
+    display: flex;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
-  @media (max-width: 600px){
-      .about {
-          flex-direction: column;
-          margin: 0;
-          height: auto;
-          overflow-x: hidden;
-      }
+h2 {
+    color: white;
+    font-size: 40px;
+}
+.about-words {
+    width: 60%;
+    margin-right: 4%;
+}
+.bottom-words{
+    margin-top: 30px;
+    margin-right: 4%;
+    width: 50%;
+}
 
-      .family {
-          width: 96%;
-          margin: 0;
-          margin-left: 2%;
-      }
-
-      .about-para p {
-          margin-left: 0;
-          width: 96%;
-          margin-right: 2%;
-      }
-   
-  }
+.hat {
+    width: 400px;
+    height: 500px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.super-bottom-words{
+    width: 60%;
+    margin-top: 100px;
+    margin-right: 5%;
+}

@@ -2,12 +2,12 @@ import React from 'react';
 import './box.css'
 import { Link } from 'react-router-dom';
 
-const ContactBox = () => {
+const ContactBox = (props) => {
     return (
         <div className="halfC">
-        <Link to="/contact">
+        <Link to={`/${props.info}`}>
             <div className="circle">
-                <p className="ach">Contact</p>
+                <p className="ach">{props.info.charAt(0).toUpperCase() + props.info.slice(1)}</p>
             </div>
         </Link>
         </div>
