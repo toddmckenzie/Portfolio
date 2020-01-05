@@ -13,13 +13,13 @@ const Projects = () => {
             <div className="dorothy">
                 <div className="words bunker-words">
                     <h1 className="project-heading">Dorothy's Bunker</h1>
-                    <h3 className="role">Fullstack Developer</h3>
+                    <h3 className="role">Full Stack Developer</h3>
                     <p>Dorothy's Bunker was a side project that I built by myself using react native and redux on the front end and node.js with express framework on the backend.  I gathered storm locations in a spreadsheet and then used python to fetch the latitude and longitude from the google geocoding api to build my seed data for the backend. </p>
                     <p>
                     The ultimate goal was so users could find a storm shelter near them to go to if severe weather is in the area or approaching.  Users can pull open the shelter they are close to and comment on the status of the shelter. 
                     </p>
                     <p>
-                    This mobile app was my first time working with react native but it was a simple transition since its so similar to reactJs.  Although I never released the app to the app store, you can find the app with the expo app at expo.io/@toddmckenzie/dorothysbunker.
+                    This mobile app was my first time working with react native but it was a simple transition since its so similar to reactJs.  Although I never released the app to the app store, you can find the app with the expo app at <a href="https://expo.io/@toddmckenzie/dorothysbunker" target="_blank">expo.io/@toddmckenzie/dorothysbunker</a>.
                     </p>
                 </div>
                 <img src={db} className="db-img"/>
@@ -28,10 +28,10 @@ const Projects = () => {
                 <img src={cloudstands} className="cloud" />
                     <div className="words">
                         <h1 className="project-heading">Cloud Stands</h1>
-                        <h3 className="role">Fullstack Developer</h3>
-                        <p><a href="www.cloudstands.com" target="_blank">www.cloudstands.com</a>was a 8 week labs project with a team of 6 other developers, a UX designer, and a team lead.  The first 2 weeks consisted of planning our feature canvases and the tech stack we were going to use.  The next 6 weeks we coded to make a usable product.</p>
-                        <p>The idea behind cloudstands was for small market owners and vendors to be able to get in contact with each other.  We built a site where the owner could put in the amount of booths the market had, the cost of the booths, and the days the market was open. The vendor could then get in there and rent booths from any market they wish to do business. The vendor could also see the other types of booths that was scheduled to be there that day in order to avoid being at a market with the same type of buisness.</p>
-                        <p>My role on cloudstands was as a fulstack developer, but I did most of the work on the frontend.  We used ReactJs and Redux for state management.</p>
+                        <h3 className="role">Full Stack Developer</h3>
+                        <p>Cloudstands was a 8 week labs project with a team of 6 other developers, a UX designer, and a team lead.  The first 2 weeks consisted of planning our feature canvases and the tech stack we were going to use.  The next 6 weeks we coded to make a usable product.</p>
+                        <p>The idea behind cloudstands was for small market owners and vendors to be able to connect with each other.  We built a site where the owner could put in the amount of booths the market had, the cost of the booths, and the days the market was open. The vendor could then get in there and rent booths from any market they wish to do business. The vendor could also see the other types of booths that was scheduled to be there that day in order to avoid being at a market with the same type of buisness.</p>
+                        <p>My role on cloudstands was as a full stack developer, but I did most of my work on the frontend.</p>
                     </div>
 
                 </div>

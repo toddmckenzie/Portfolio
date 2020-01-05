@@ -10,7 +10,7 @@
 }
 
 .icons:first-child {
-    margin-left: 80%;
+    margin-left: 10%;
 }
 
 .copy {
@@ -20,5 +20,6 @@
     font-size: 16px;
     font-family: Avenir;
     font-style: heavy;
+    width: 75%;
 }
 
