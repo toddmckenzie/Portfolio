@@ -73,26 +73,55 @@
     line-height: 41px;
     width: 1100px;
   }
+  @media (max-width: 800px){
+    .name{
+      font-size: 60px;
+    }
+  }
   
   @media (max-width: 600px){
       .header {
-          flex-direction: column;
-          margin: 0 auto;
-          height: auto;
-          position: static;
+          width: 100%;
           overflow-x: hidden;
+      }
+      .name{
+        font-size: 40px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .web {
+        font-size: 32px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .top {
+        flex-direction: column;
+        width: auto;
       }
       a {
           font-size: 36px;
           text-align: center;
-          width: 100%;
+          width: auto;
           margin-top: 10px;
           margin-bottom: 25px;
 
       }
-      .first {
-        margin-left: 0;
+      a:hover {
+        transform: scale(1);
       }
-      
-      
+    
+      a:last-child {
+        margin-bottom: 70px;
+      }
+      .para {
+        margin-top: 40px;
+        width: auto;
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 20px;
+      }
+      .firsta {
+        font-size: 36px;
+      }
   }

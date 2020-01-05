@@ -12,18 +12,18 @@ const Header = () => {
             <div className="heading">
                 <div className="top">
                     <Link to="/">
-                    <a className="first">Home</a>
+                    <a className="firsta">Home</a>
                     </Link>
                     <Link to="/about">
-                        <a>About</a>
+                        <a className="firsta">About</a>
                     </Link>
                     <Link to="/contact">
-                        <a className="last">Contact</a>
+                        <a className="firsta">Contact</a>
                     </Link>
                 </div>
                 <h1 className="name">Todd McKenzie</h1>
                 <h3 className="web">Web Developer</h3>
-                <p className="para">Hey I'm Todd. Checkout my projects below.</p>
+                <p className="para">I'm a Full Stack Web Developer that is constantly striving to improve my skills and always learning.  I currently know JavaScript and Python but am always interested in learning new languages, libraries, and frameworks.  Checkout below.</p>
             </div>
             
         </div>

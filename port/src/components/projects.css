@@ -128,7 +128,12 @@ p {
     .dorothy {
         flex-direction: column;
     }
-
+    .project-heading {
+        font-size: 30px;
+    }
+    .bunker-words {
+        padding-bottom: 0px;
+    }
     .db-img {
         height: auto;
         width: 96%;
@@ -137,15 +142,19 @@ p {
     p {
         width: 96%;
     }
-
     .words {
         margin-left: 2%;
         margin-right: 2%;
         order: 2;
+        width: 86%;
+        font-size: 16px;
+    }
+    .role {
+        font-size: 28px;
     }
     .cloud-div {
         flex-direction: column;
-
+        margin-top: 0;
     }
     .cloud {
         width: 96%;
@@ -153,7 +162,10 @@ p {
         margin-left: 2%;
         order: 1;
     }
-
+    .cloud {
+        margin-left: 2%;
+        margin-top: 80px;
+    }
     .bunker-words {
         margin-top: 40px;
     }
@@ -164,12 +176,15 @@ p {
         margin-left: 2%;
         margin-right: 2%;
     }
-
     .didact-div {
         flex-direction: column;
+        margin-top: 0;
     }
     .didact-words {
         margin-top: 40px;
+    }
+    .didact-pic {
+        margin-top: 80px;
     }
 
     .tweet-words {
@@ -182,8 +197,12 @@ p {
         width: 96%;
         height: auto;
         margin-left: 2%;
+        margin-top: 80px;
     }
     .tweet {
         flex-direction: column;
+    }
+    a {
+        font-size: 16px;
     }
 }

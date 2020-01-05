@@ -23,3 +23,13 @@
     width: 75%;
 }
 
+@media (max-width: 600px){
+    .icons {
+        margin-top: 40px;
+    }
+    .copy {
+        margin-left: 3%;
+        font-size: 14px;
+    }
+}
+
