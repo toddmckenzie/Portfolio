@@ -55,12 +55,24 @@ p {
     width: 30%;
     margin-top: 0px;
 }
-/*
+.db-heading:hover {
+    color: #3366CC;
+}
+
+.cloud-heading:hover {
+    color: #478529;
+}
+
+.didact-heading:hover {
+    color: #EBE8E1;
+}
+
 .didact-pic {
     width: 600px;
     height: 450px;
     margin-left: 20px;
-    margin-top: 40px;
+    margin-top: 350px;
+    margin-right: 20px;
 }
 
 .didact-div{
@@ -70,9 +82,9 @@ p {
 }
 
 .didact-words {
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 80px;
-}
+} 
 
 .tweet-words {
     margin-top: 60px;
@@ -88,10 +100,15 @@ p {
 
 .tweet-pic {
     width: 600px;
-    height: auto;
-    margin-left: 30px;
+    height: 450px;
+    margin-left: 20px;
+    margin-top: 180px;
 }
-*/
+
+.TB-heading:hover {
+    color: #00ACEE;
+}
+
 .project-heading{
     font-size: 50px;
     text-decoration: underline;
