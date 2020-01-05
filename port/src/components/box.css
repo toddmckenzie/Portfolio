@@ -1,0 +1,39 @@
+.about-circle {
+    background-color: #867B5E;
+    width: 50%;
+}
+
+.about-contact {
+    background-color: #15596F;
+}
+
+.about-circle {
+    border: 4px solid white;
+    border-radius: 50%;
+    height: 478px;
+    width: 478px;
+}
+
+
+.contact-circle {
+    border: 4px solid white;
+    border-radius: 50%;
+    height: 478px;
+    width: 478px;
+    background: blue;
+}
+
+
+.home-circle {
+    border: 4px solid white;
+    border-radius: 50%;
+    height: 478px;
+    width: 478px;
+}
+
+.ach {
+    font-size: 50px;
+}
+
+
+

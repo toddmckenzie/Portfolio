@@ -5,22 +5,10 @@ import code from '../img/code-reg.png';
 
 const Contact = () => {
 
-    const [ title, setTitle ] = useState('')
-    const [ i, setI ] = useState(0);
-
-    useEffect(() => {
-        const contact = ['C', 'o', 'n', 't', 'a', 'c', 't']
-        setTimeout(function() {            
-            if (i < contact.length+1){
-                setTitle(contact.slice(0,i).join(''))
-                setI(i + 1);
-            }
-        }, 300)
-    },[title, i])
 
     return (
         <div className="contact" style={{backgroundImage: `url(${code})`}}>
-            <h1 className="contact-title">{title}</h1>
+            <h1 className="contact-title">Contact</h1>
             <div className="contact-box">
                 <p className="phone">Phone: 314-605-0504</p>
                 <p className="email">Email: mckenzie2215@gmail.com</p>
