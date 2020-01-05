@@ -17,7 +17,7 @@ li {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 h1 {
     margin-bottom: 20px;
@@ -30,16 +30,8 @@ h1 {
 }
 
 
-
-@media (max-height: 600px){
-    .skills {
-        height: 200vh;
-    }
-}
-
 @media (max-width: 600px){ 
     .skills {
-        height: 210vh;
         overflow-x: hidden;
     }
     .li {
@@ -51,9 +43,7 @@ h1 {
     .box {
         width: 95%;
         height: auto;
-        margin-left: 2%;
-        margin-right: 2%;
         margin-bottom: 150px;
-        background: rgb(30,30,30);
+        background-color: #23443C;
     }
 }

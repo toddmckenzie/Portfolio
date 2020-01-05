@@ -1,7 +1,17 @@
 .home {
     background: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .flex {
     display: flex;
+}
+
+@media (max-width: 600px){
+    .flex {
+        flex-direction: column;
+        width: 100%;
+    }
+    
 }

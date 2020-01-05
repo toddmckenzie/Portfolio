@@ -12,22 +12,18 @@ h1 {
     height: 40px;
 }
 
-.db-img {
-    height: 600px;
-    width: auto;
-}
 
 p {
     color: white;
-    width: 550px;
-    line-height: 1.5;
+    font-family: Avenir;
+    font-size: 24px;
 }
 .words {
     background-color: black;
     height: 100%;
     padding-left: 30px;
     padding-right: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .dorothy {
@@ -44,18 +40,39 @@ p {
     height: 100%;
 }
 .cloud {
-    width: 600px;
-    height: 450px;
+    width: auto;
+    height: 350px;
+    margin-left: 40px;
+    margin-top: 300px;
 }
 .bunker-words {
-    margin-top: 90px;
+    margin-top: 0px;
+    width: 800px;
+    padding-bottom: 50px;
+}
+
+.db-img {
+    width: 30%;
+    margin-top: 0px;
+}
+.db-heading:hover {
+    color: #3366CC;
+}
+
+.cloud-heading:hover {
+    color: #478529;
+}
+
+.didact-heading:hover {
+    color: #EBE8E1;
 }
 
 .didact-pic {
     width: 600px;
     height: 450px;
     margin-left: 20px;
-    margin-top: 40px;
+    margin-top: 350px;
+    margin-right: 20px;
 }
 
 .didact-div{
@@ -65,9 +82,9 @@ p {
 }
 
 .didact-words {
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 80px;
-}
+} 
 
 .tweet-words {
     margin-top: 60px;
@@ -83,18 +100,26 @@ p {
 
 .tweet-pic {
     width: 600px;
-    height: auto;
-    margin-left: 30px;
+    height: 450px;
+    margin-left: 20px;
+    margin-top: 180px;
+}
+
+.TB-heading:hover {
+    color: #00ACEE;
 }
 
 .project-heading{
+    font-size: 50px;
     text-decoration: underline;
     text-align: left;
-}
+    font-family: Unna;
+} 
 .role {
     color: white;
-    margin-top: -10px;
-}
+    font-size: 30px;
+    font-family: Avenir;
+} 
 
 @media (max-width: 600px){ 
     .project {
@@ -103,7 +128,12 @@ p {
     .dorothy {
         flex-direction: column;
     }
-
+    .project-heading {
+        font-size: 30px;
+    }
+    .bunker-words {
+        padding-bottom: 0px;
+    }
     .db-img {
         height: auto;
         width: 96%;
@@ -112,15 +142,19 @@ p {
     p {
         width: 96%;
     }
-
     .words {
         margin-left: 2%;
         margin-right: 2%;
         order: 2;
+        width: 86%;
+        font-size: 16px;
+    }
+    .role {
+        font-size: 28px;
     }
     .cloud-div {
         flex-direction: column;
-
+        margin-top: 0;
     }
     .cloud {
         width: 96%;
@@ -128,7 +162,10 @@ p {
         margin-left: 2%;
         order: 1;
     }
-
+    .cloud {
+        margin-left: 2%;
+        margin-top: 80px;
+    }
     .bunker-words {
         margin-top: 40px;
     }
@@ -139,12 +176,15 @@ p {
         margin-left: 2%;
         margin-right: 2%;
     }
-
     .didact-div {
         flex-direction: column;
+        margin-top: 0;
     }
     .didact-words {
         margin-top: 40px;
+    }
+    .didact-pic {
+        margin-top: 80px;
     }
 
     .tweet-words {
@@ -157,8 +197,12 @@ p {
         width: 96%;
         height: auto;
         margin-left: 2%;
+        margin-top: 80px;
     }
     .tweet {
         flex-direction: column;
+    }
+    a {
+        font-size: 16px;
     }
 }

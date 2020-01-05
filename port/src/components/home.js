@@ -3,8 +3,8 @@ import './home.css';
 import Projects from './projects';
 import Skills from './skills';
 import Footer from './footer';
-import Box from './box';
-
+import AboutBox from './aboutbox';
+import ContactBox from './contactbox'
 
 const Home = () => {
 
@@ -13,8 +13,8 @@ const Home = () => {
             <Projects />
             <Skills />
             <div className="flex">
-                <Box identity='About'/>
-                <Box identity='Contact'/>
+                <AboutBox/>
+                <ContactBox/>
             </div>
             <Footer />
         </div>
