@@ -14,7 +14,7 @@ function App() {
   return (
         <div class="container">
         <Header />
-        <Route exact path="/home" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/skills" component={Skills} />
         <Route path="/contact" component={Contact} />
