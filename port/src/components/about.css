@@ -53,3 +53,42 @@ h2 {
     margin-top: 100px;
     margin-right: 5%;
 }
+
+@media (max-width: 600px){
+    .about-para {
+        flex-direction: column;
+    }
+    .about-words {
+        width: 100%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .myphoto {
+        width: 88%;
+        margin-right: 2%;
+        margin-top: 30px;
+    }
+    .family {
+        order: 1;
+        width: 96%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .bottom-words {
+        width: 100%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10px;
+    }
+    .super-bottom-words {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 50px;
+    }
+    .hat {
+        width: 96%;
+        margin-right: 2%;
+    }
+}

@@ -16,7 +16,7 @@ const About = () => {
               </div> */}
               <div className="about-para">
                 <div className="about-words">
-                    <h2>About</h2>
+                    <h2>About me</h2>
                     <p>I grew up in a small town in southeast Kansas where sports were my life.  Along with other sports I also wrestled growing up and wrestled a couple of years in college. After I stopped wrestling I had little idea or direction with what I wanted to do with my life so I bounced around a little before I finished a bachelors degree in Human Biology from Cleveland University Kansas City.  Shortly after graduating I moved to St. Louis to be closer to my girlfriend, who is now my wife.  I started working for a chemical plant as a contracted Quality Control lab technician.  When that job ended I took an operator position with the same company.  I ended up working there for a little over 12 years.  During this period my wife and I had 2 sets of twins.</p> 
                     
                 </div>

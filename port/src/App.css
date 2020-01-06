@@ -13,3 +13,10 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 600px){
+  .container {
+    overflow-x: hidden;
+  }
+  
+}
