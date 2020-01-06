@@ -13,8 +13,8 @@ const Home = () => {
             <Projects />
             <Skills />
             <div className="flex">
-                <AboutBox/>
-                <ContactBox/>
+                <AboutBox info="about" />
+                <ContactBox info="contact"/>
             </div>
             <Footer />
         </div>
