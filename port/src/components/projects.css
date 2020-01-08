@@ -40,14 +40,14 @@ p {
     height: 100%;
 }
 .cloud {
-    width: auto;
+    width: 46%;
     height: 350px;
     margin-left: 40px;
     margin-top: 300px;
 }
 .bunker-words {
     margin-top: 0px;
-    width: 800px;
+    width: 61%;
     padding-bottom: 50px;
 }
 
@@ -68,7 +68,7 @@ p {
 }
 
 .didact-pic {
-    width: 600px;
+    width: 46%;
     height: 450px;
     margin-left: 20px;
     margin-top: 350px;
@@ -90,6 +90,7 @@ p {
     margin-top: 60px;
     margin-left: 20px;
     padding-right: 0px;
+    width: 45%;
 }
 
 
@@ -99,7 +100,7 @@ p {
 }
 
 .tweet-pic {
-    width: 600px;
+    width: 46%;
     height: 450px;
     margin-left: 20px;
     margin-top: 180px;
@@ -120,6 +121,12 @@ p {
     font-size: 30px;
     font-family: Avenir;
 } 
+
+@media (max-width: 800px){
+    .anchorT {
+        font-size: 18px;
+    }
+}
 
 @media (max-width: 600px){ 
     .project {
