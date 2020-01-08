@@ -19,7 +19,7 @@ const Projects = () => {
                     The ultimate goal was so users could find a storm shelter near them to go to if severe weather is in the area or approaching.  Users can pull open the shelter they are close to and comment on the status of the shelter. 
                     </p>
                     <p>
-                    This mobile app was my first time working with react native but it was a simple transition since its so similar to reactJs.  Although I never released the app to the app store, you can open the app with the expo app at <a className="db-heading"href="https://expo.io/@toddmckenzie/dorothysbunker" target="_blank">expo.io/@toddmckenzie/dorothysbunker</a>.
+                    This mobile app was my first time working with react native but it was a simple transition since its so similar to reactJs.  Although I never released the app to the app store, you can open the app with the expo app at <a className="db-heading anchorT"href="https://expo.io/@toddmckenzie/dorothysbunker" target="_blank">expo.io/@toddmckenzie/dorothysbunker</a>.
                     </p>
                 </div>
                 <img src={db} className="db-img"/>
@@ -56,7 +56,7 @@ const Projects = () => {
                     <h3 className="role">Frontend Developer</h3>
                         <p>Tweet better was the first react project that I helped build.  It was made during a build week after learning react.  Myself and another developer built the frontend in react and redux and the backend was built by two data scientists.</p>
                         <p>The idea behind tweet better was to evaluate your tweet before you actually post the tweet to twitter.  The backend rates the sentiment of the tweet and its displays the sentimate rating.</p>
-                        <p>The site is located at <a className="TB-heading" href="https://tweetbetterapp.netlify.com" target="_blank"> https://tweetbetterapp.netlify.com.</a></p>
+                        <p>The site is located at <a className="TB-heading anchorT" href="https://tweetbetterapp.netlify.com" target="_blank"> https://tweetbetterapp.netlify.com.</a></p>
                     </div>
                 </div>
         </div>

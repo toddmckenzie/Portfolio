@@ -34,11 +34,13 @@ h1 {
     .skills {
         overflow-x: hidden;
     }
-    .li {
-        margin-left: 2%;
+    li {
+        margin: 0 auto;
     }
     .row {
         flex-direction: column;
+        margin: 0 auto;
+        
     }
     .box {
         width: 95%;
