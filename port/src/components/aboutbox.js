@@ -3,6 +3,8 @@ import './box.css'
 import { Link } from 'react-router-dom';
 
 
+//need to revisit to center words better at different media queries.
+
 const AboutBox = (props) => {
     let site = (props.info === 'home') ? '' : 'about'
     return (
