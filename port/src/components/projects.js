@@ -21,8 +21,8 @@ const Projects = () => {
                     <p>
                     This mobile app was my first time working with react native but it was a simple transition since its so similar to reactJs.  Although I never released the app to the app store, you can open the app with the expo app at <a className="db-heading anchorT"href="https://expo.io/@toddmckenzie/dorothysbunker" target="_blank">expo.io/@toddmckenzie/dorothysbunker</a>.
                     </p>
-                    <p>Github Code: <a href="https://github.com/SheltersBunkers/Frontend" className="db-heading" target="_blank" style={{fontSize: "26px"}}>Front End</a></p>
-                    <p>Github Code: <a href="https://github.com/toddmckenzie/Maps-backend" className="db-heading" target="_blank"  style={{fontSize: "26px"}}>Back End</a></p>
+                    <p>Github Code: <a href="https://github.com/SheltersBunkers/Frontend" className="db-heading" target="_blank" style={{fontSize: "26px", textDecoration: "underline"}}>Front End</a></p>
+                    <p>Github Code: <a href="https://github.com/toddmckenzie/Maps-backend" className="db-heading" target="_blank"  style={{fontSize: "26px", textDecoration: "underline"}}>Back End</a></p>
                 </div>
                 <img src={db} className="db-img"/>
             </div>
