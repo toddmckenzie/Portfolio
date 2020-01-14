@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import { Link } from 'react-router-dom';
-import code from '../img/code-unsplash.jpg';
+import code from '../img/code-un.jpg';
 
 
 const Header = () => {

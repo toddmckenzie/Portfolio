@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './skills.css';
-import code from '../img/code-be.png';
+
 
 
 const Skills = () => {

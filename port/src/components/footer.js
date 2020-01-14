@@ -2,7 +2,6 @@ import React from 'react';
 import './footer.css';
 import github from '../img/github.svg';
 import linkedin from '../img/linkedin.svg';
-import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
