@@ -3,7 +3,7 @@
     width: 100%; 
     height: 900px;
     background-size: cover;
-    background-image: url('../img/code-unsplash.jpg');
+    background-image: url('../img/code-un.jpg');
     backdrop-filter: blur(3px);
     -webkit-filter: blur(3px);
 }

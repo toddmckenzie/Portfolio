@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './projects.css';
-import code from '../img/code-pro.png';
 import db from '../img/db.png';
 import cloudstands from '../img/cloudstands.png';
 import didact from '../img/didact.png';
