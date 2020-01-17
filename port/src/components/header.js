@@ -7,7 +7,6 @@ import code from '../img/code-un.jpg';
 const Header = () => {
 
     const executeScroll = () => {
-        console.log('herrereerer')
         setTimeout(() => {
             window.scrollTo(0, 850)
         },200)
@@ -22,7 +21,9 @@ const Header = () => {
                     <Link to="/">
                     <a className="firsta">Home</a>
                     </Link>
-                    <a className="firsta" onClick={() => executeScroll()}>Projects</a>
+                    <Link to="/">
+                        <a className="firsta" onClick={() => executeScroll()}>Projects</a>
+                    </Link>
                     <Link to="/about">
                         <a className="firsta">About</a>
                     </Link>
