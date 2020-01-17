@@ -9,6 +9,12 @@ import tweet from '../img/tweet-better.png';
 //commit test 2
 
 const Projects = () => {
+
+    useEffect(() => {
+        if (window.location.href === "http://localhost:3000/") {
+            window.scrollTo(0, 850)
+        }  
+    })
  
     return (
         <div className="projects">
@@ -16,7 +22,7 @@ const Projects = () => {
                 <div className="words bunker-words">
                     <h1 className="project-heading"><a href="https://expo.io/@toddmckenzie/dorothysbunker" target="_blank" className="project-heading db-heading">Dorothy's Bunker</a></h1>
                     <h3 className="role">Full Stack Developer</h3>
-                    <p>Dorothy's Bunker is a solo-built project using React native and Redux on the front end and Node.js with express framework on the back end.  To create this mobile app, I started by gathering storm locations from various sources such as county government sites and local new stations and used Python to fetch the latitude and longitude from the Google Geocoding API to build my seed data for the back end.</p>
+                    <p>Dorothy's Bunker is a solo-built project using React native and Redux on the front end and Node.js with express framework on the back end.  To create this mobile app, I started by gathering storm locations from various sources such as county government sites and local new stations. Python was then used to fetch the latitude and longitude from the Google Geocoding API to build my seed data for the back end.</p>
                     <p>
                     The ultimate goal was so users could find a nearby storm shelter when severe weather is approaching. Users can also pull open a profile for their nearby shelter and comment on the status of the shelter.
                     </p>

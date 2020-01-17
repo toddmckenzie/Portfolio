@@ -14,7 +14,7 @@
 .top {
   display: flex;
   justify-content: space-between;
-  width: 442px;
+  width: 602px;
   margin: 0 auto;
   /* margin-top: -850px; */
   backdrop-filter: blur(0px);

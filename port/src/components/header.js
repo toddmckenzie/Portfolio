@@ -6,6 +6,14 @@ import code from '../img/code-un.jpg';
 
 const Header = () => {
 
+    const executeScroll = () => {
+        console.log('herrereerer')
+        setTimeout(() => {
+            window.scrollTo(0, 850)
+        },200)
+       
+    }
+
     return (
         <div className="header-wrapper">
             <div className="header" />
@@ -14,6 +22,7 @@ const Header = () => {
                     <Link to="/">
                     <a className="firsta">Home</a>
                     </Link>
+                    <a className="firsta" onClick={() => executeScroll()}>Projects</a>
                     <Link to="/about">
                         <a className="firsta">About</a>
                     </Link>
@@ -23,7 +32,7 @@ const Header = () => {
                 </div>
                 <h1 className="name">Todd McKenzie</h1>
                 <h3 className="web">Web Developer</h3>
-                <p className="para">I'm a Full Stack Web Developer constantly striving to improve my skills and learn more about code optimization, debugging, and updgrades in technology. Fluent in JavaScript and Python and always adding new languages, libraries, and frameworks. Keep an eye out for projects being added with a Django back end.</p>
+                <p className="para">I'm a Full Stack Web Developer constantly striving to improve my skills and learn more about code optimization, debugging, and upgrades in technology. Fluent in JavaScript and Python and always adding new languages, libraries, and frameworks. Keep an eye out for projects being added with a Django back end.</p>
             </div>
             
         </div>
