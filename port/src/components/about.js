@@ -11,6 +11,10 @@ import Footer from './footer';
 
 const About = () => {
 
+    useEffect(() => {
+        window.scrollTo(0,850)
+    })
+
     return (
         <div className="about">
               {/* <div>

@@ -6,7 +6,6 @@ import Skills from './components/skills';
 import Contact from './components/contact';
 import Projects from './components/projects';
 import Home from './components/home';
-
 import { Route } from 'react-router-dom';
 
 

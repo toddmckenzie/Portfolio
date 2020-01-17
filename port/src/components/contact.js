@@ -6,6 +6,9 @@ import Footer from './footer';
 
 const Contact = () => {
 
+    useEffect(() => {
+        window.scrollTo(0,850)
+    })
 
     return (
         <div className="contact" >

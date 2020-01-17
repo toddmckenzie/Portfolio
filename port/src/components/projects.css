@@ -114,12 +114,10 @@ p {
     font-size: 50px;
     text-decoration: underline;
     text-align: left;
-    font-family: Unna;
 } 
 .role {
     color: white;
     font-size: 30px;
-    font-family: Avenir;
 } 
 
 @media (max-width: 800px){
