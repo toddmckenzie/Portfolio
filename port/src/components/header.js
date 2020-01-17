@@ -23,7 +23,7 @@ const Header = () => {
                 </div>
                 <h1 className="name">Todd McKenzie</h1>
                 <h3 className="web">Web Developer</h3>
-                <p className="para">I'm a Full Stack Web Developer that is constantly striving to improve my skills and always learning.  I currently know JavaScript and Python but am always interested in learning new languages, libraries, and frameworks.  Checkout below.</p>
+                <p className="para">I'm a Full Stack Web Developer constantly striving to improve my skills and learn more about code optimization, debugging, and updgrades in technology. Fluent in JavaScript and Python and always adding new languages, libraries, and frameworks. Keep an eye out for projects being added with a Django back end.</p>
             </div>
             
         </div>
