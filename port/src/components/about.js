@@ -3,11 +3,8 @@ import './about.css';
 import family from '../img/family.png';
 import todd from '../img/todd.jpg';
 import hat from '../img/todd-hat.jpg';
-import ContactBox from './contactbox';
-import AboutBox from './aboutbox';
-import Footer from './footer';
 
-//test push to contact 
+
 
 const About = () => {
 

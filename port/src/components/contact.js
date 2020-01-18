@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './contact.css';
-import AboutBox from './aboutbox';
-import ContactBox from './contactbox';
-import Footer from './footer';
+
 
 const Contact = () => {
 

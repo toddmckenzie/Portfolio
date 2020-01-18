@@ -36,6 +36,35 @@
     text-decoration: underline;
 }
 
+.phone-img {
+    z-index: 10;
+    height: 50px;
+    width: 50px;
+    margin-left: 25%;
+    margin-top: 30%;
+}
+.port-img {
+    z-index: 10;
+    height: 50px;
+    width: 50px;
+    margin-left: 28%;
+    margin-top: 30%;
+}
+.home-img {
+    z-index: 10;
+    height: 50px;
+    width: 50px;
+    margin-left: 28%;
+    margin-top: 30%;
+}
+.man {
+    z-index: 10;
+    height: 55px;
+    width: 50px;
+    margin-left: 28%;
+    margin-top: 27%;
+}
+
 @media (max-width: 600px){
     .bottom-nav {
         padding-top: 50px;
@@ -61,5 +90,20 @@
     margin: 0 auto;
 }
 
-
+.phone-img {
+    margin-left: 0;
+    margin-top: 30%;
+}
+.port-img {
+    margin-left: 0%;
+    margin-top: 30%;
+}
+.home-img {
+    margin-left: 0;
+    margin-top: 30%;
+}
+.man {
+    margin-left: 0;
+    margin-top: 27%;
+}
 }
