@@ -127,8 +127,9 @@ p {
 }
 
 @media (max-width: 600px){ 
-    .project {
+    .projects {
         overflow-x: hidden;
+        margin-top: 80px;
     }
     .dorothy {
         flex-direction: column;
