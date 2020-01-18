@@ -3,8 +3,7 @@ import './home.css';
 import Projects from './projects';
 import Skills from './skills';
 import Footer from './footer';
-import AboutBox from './aboutbox';
-import ContactBox from './contactbox'
+
 
 const Home = () => {
 
