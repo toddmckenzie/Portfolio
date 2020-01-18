@@ -23,10 +23,10 @@ const Header = () => {
                     <a className="firsta">Home</a>
                     </Link>
                     <Link to="/">
-                        <a className="firsta" onClick={() => executeScroll()}>Projects</a>
+                        <a className="firsta pro-line" onClick={() => executeScroll()}>Projects</a>
                     </Link>
                     <Link to="/about">
-                        <a className="firsta">About</a>
+                        <a className="firsta about-line">About</a>
                     </Link>
                     <Link to="/contact">
                         <a className="firsta">Contact</a>

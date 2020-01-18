@@ -129,6 +129,7 @@ p {
 @media (max-width: 600px){ 
     .projects {
         overflow-x: hidden;
+        overflow-y: hidden;
         margin-top: 80px;
     }
     .dorothy {

@@ -10,12 +10,6 @@ import tweet from '../img/tweet-better.png';
 
 const Projects = () => {
 
-    useEffect(() => {
-        if (window.location.href === "http://localhost:3000/") {
-            window.scrollTo(0, 850)
-        }  
-    })
- 
     return (
         <div className="projects">
             <div className="dorothy">

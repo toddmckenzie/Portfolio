@@ -14,11 +14,19 @@
 .top {
   display: flex;
   justify-content: space-between;
-  width: 602px;
+  width: 600px;
   margin: 0 auto;
   /* margin-top: -850px; */
   backdrop-filter: blur(0px);
   -webkit-filter: blur(0px);
+}
+
+.pro-line {
+  margin-left: -5%;
+}
+
+.about-line {
+  margin-left: 5%;
 }
 
   a {
@@ -123,5 +131,11 @@
       }
       .firsta {
         font-size: 36px;
+      }
+      .pro-line {
+        margin-left: 0;
+      }
+      .about-line {
+        margin-left: 0;
       }
   }
