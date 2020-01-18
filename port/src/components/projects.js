@@ -20,7 +20,7 @@ const Projects = () => {
         <div className="projects">
             <div className="dorothy">
                 <div className="words bunker-words">
-                    <a href="https://expo.io/@toddmckenzie/dorothysbunker" target="_blank" className="db-heading"><h1 className="project-heading">Dorothy's Bunker</h1></a>
+                    <a href="https://expo.io/@toddmckenzie/dorothysbunker" target="_blank" className="db-heading"><h1 className="project-heading db-heading">Dorothy's Bunker</h1></a>
                     <h3 className="role">Full Stack Developer</h3>
                     <p>Dorothy's Bunker is a solo-built project using React native and Redux on the front end and Node.js with express framework on the back end.  To create this mobile app, I started by gathering storm locations from various sources such as county government sites and local new stations. Python was then used to fetch the latitude and longitude from the Google Geocoding API to build my seed data for the back end.</p>
                     <p>
