@@ -65,7 +65,7 @@ const Projects = () => {
                         <p>Tweet better was the first react project that I built, created during a one-week Build week following a 3-week React Unit at Lambda School. Myself and another developer collaborated to create the Front end interface in React and Redux, while the Backend was built by two Data Scientists.</p>
                         <p>The idea behind Tweet Better was to evaluate the content of a Tweet before you post to Twitter. The Backend rated the sentiment of the tweet and the Frontend displayed this sentiment rating clearly to the user.
                         The site is located at  <a className="TB-heading anchorT" href="https://tweetbetterapp.netlify.com" target="_blank"> https://tweetbetterapp.netlify.com.</a></p>
-                        <p>Github Code: <a href="https://github.com/tweet-better-build-week-2/Frontend" target="_blank" className="TB-heading" style={{fontSize: "26px", textDecoration: "underline"}}>Frontend</a></p>
+                        <p>Github Code: <a href="https://github.com/tweet-better-build-week-2/Frontend" target="_blank" className="TB-heading git-tweet" style={{textDecoration: "underline"}}>Frontend</a></p>
                     </div>
                 </div>
         </div>

@@ -53,7 +53,9 @@ p {
 
 .db-img {
     width: 30%;
+    height: 700px;
     margin-top: 0px;
+    margin-top: 50px;
 }
 .db-heading:hover {
     color: #3366CC;
@@ -208,8 +210,13 @@ p {
     }
     .tweet {
         flex-direction: column;
+        margin-bottom: 0;
     }
     a {
         font-size: 16px;
+    }
+    .git-tweet {
+        text-decoration: underline;
+        font-size: 26px;
     }
 }

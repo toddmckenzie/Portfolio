@@ -16,11 +16,6 @@ const Home = () => {
         <div className="home">
             <Projects />
             <Skills />
-            <div className="flex">
-                <AboutBox info="about" />
-                <ContactBox info="contact"/>
-            </div>
-            <Footer />
         </div>
     )
 }

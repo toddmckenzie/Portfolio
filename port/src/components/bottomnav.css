@@ -1,0 +1,65 @@
+.bottom-nav {
+    height: 250px;
+    background-color: #15596F;
+    display: flex;
+    justify-content: space-around;
+}
+
+.small-circle {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.small-circle:hover {
+    background-color: #867B5E;
+}
+
+.bottom-anchors:hover {
+    transform: scale(1.0)
+}
+
+.bottom-anc-words {
+    margin-left: 25%;
+}
+
+.bottom-anc-words-home {
+    margin-left: 30%;
+}
+
+.bottom-anc-words-projects {
+    margin-left: 22%;
+}
+
+.bottom-hover:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px){
+    .bottom-nav {
+        padding-top: 50px;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .bottom-anchors {
+        width: 49%;
+    }
+    
+.bottom-anc-words {
+    margin: 0 auto;
+}
+
+.bottom-anc-words-home {
+    margin: 0 auto;
+}
+
+.bottom-anc-words-projects {
+    margin: 0 auto;
+}
+.small-circle {
+    margin: 0 auto;
+}
+
+
+}
