@@ -33,6 +33,7 @@ h1 {
 @media (max-width: 600px){ 
     .skills {
         overflow-x: hidden;
+        padding-top: 160px;
     }
     li {
         margin: 0 auto;
@@ -40,12 +41,10 @@ h1 {
     .row {
         flex-direction: column;
         margin: 0 auto;
-        
     }
     .box {
-        width: 95%;
+        width: 100%;
         height: auto;
-        margin-bottom: 150px;
         background-color: #23443C;
     }
 }

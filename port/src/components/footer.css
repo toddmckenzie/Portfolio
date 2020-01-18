@@ -3,6 +3,7 @@
     height: 150px;
     background-color: black;
     display: flex;
+    overflow-y: hidden;
 }
 .icons {
     height: 40px;

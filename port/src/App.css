@@ -2,17 +2,9 @@
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
+  background-color: black;
 }
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 @media (max-width: 600px){
   .container {

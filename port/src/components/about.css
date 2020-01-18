@@ -5,8 +5,9 @@
   }
  
   .family {
-      width: 650px;
-      height: 400px;
+      max-width: 650px;
+      max-height: 400px;
+      width: 50%;
       margin-left: 0px;
       margin-top: 80px;
       border-radius: 20px;
