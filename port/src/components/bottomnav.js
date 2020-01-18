@@ -52,7 +52,7 @@ const BottomNav = () => {
                 <a className="bottom-anchors">
                     <Link to="/contact">
                     <div className="small-circle">
-                        <img src={phone} className="phone" />
+                        <img src={phone} className="phone-img" />
                     </div>
                     <p className="bottom-anc-words bottom-hover">Contact</p>
                     </Link>

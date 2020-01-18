@@ -36,7 +36,7 @@
     text-decoration: underline;
 }
 
-.phone {
+.phone-img {
     z-index: 10;
     height: 50px;
     width: 50px;
@@ -90,7 +90,7 @@
     margin: 0 auto;
 }
 
-.phone {
+.phone-img {
     margin-left: 0;
     margin-top: 30%;
 }
