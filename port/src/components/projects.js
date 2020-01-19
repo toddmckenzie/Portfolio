@@ -5,8 +5,6 @@ import cloudstands from '../img/cloudstands.png';
 import didact from '../img/didact.png';
 import tweet from '../img/tweet-better.png';
 
-//need to change wording to match expectations of Lambdas requirements.....
-//commit test 2
 
 const Projects = () => {
 
