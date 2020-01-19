@@ -14,13 +14,10 @@ const About = () => {
 
     return (
         <div className="about">
-              {/* <div>
-                  <img src={family} className="family"/>
-              </div> */}
               <div className="about-para">
                 <div className="about-words">
                     <h2>About me</h2>
-                    <p>I grew up in a small town in southeast Kansas where sports were my life. I played basketball, football, baseball, tennis, soccer, cross country and even wrestled on the college level. Following my passion for human physicality and athleticism, I completed a bachelors degree in Human Biology from Cleveland University Kansas City. Shortly after graduating I moved be closer to my girlfriend, who is now my wife, in St.Louis, MO, which is now my home. For 12 years, I worked for a chemical plant as a contracted Quality Control lab technician and later an Operator. During this time, my wife and I had 2 sets of twins (yes, you read that right, 4 children!).</p> 
+                    <p>I grew up in a small town in southeast Kansas where sports were my life. I played basketball, football, baseball, tennis, soccer, cross country and even wrestled on the college level. Following my passion for human physicality and athleticism, I completed a bachelors degree in Human Biology from Cleveland University Kansas City. Shortly after graduating I moved to be closer to my girlfriend, who is now my wife, in St.Louis, MO, which is now my home. For 12 years, I worked for a chemical plant as a contracted Quality Control lab technician and later an Operator. During this time, my wife and I had 2 sets of twins (yes, you read that right, 4 children!).</p> 
                     
                 </div>
                     <img src={todd} alt="picture of todd mckenzie" className="myphoto" />

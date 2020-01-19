@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import code from '../img/code-un.jpg';
 
 
-//check to see which ways people think scrolling looks//
 const Header = () => {
 
     const executeScroll = () => {
