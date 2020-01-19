@@ -14,9 +14,6 @@ const About = () => {
 
     return (
         <div className="about">
-              {/* <div>
-                  <img src={family} className="family"/>
-              </div> */}
               <div className="about-para">
                 <div className="about-words">
                     <h2>About me</h2>
