@@ -29,7 +29,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about-para">
-                    <p className="super-bottom-words">My journey through Lambda was challenging, but resulted in a deep love for coding. For once in my life, I can truly say I have found an opportunity to purse something I enjoy in my career. I love learning and making new apps that users love. I love being stuck on a problem and waking up in the middle of the night with the answer. In short, I am obsessed with code and aim to continue to develop into the best developer I can be.</p>
+                    <p className="super-bottom-words">My journey through Lambda was challenging, but resulted in a deep love for coding. For once in my life, I can truly say I have found an opportunity to pursue something I enjoy in my career. I love learning and making new apps that users love. I love being stuck on a problem and waking up in the middle of the night with the answer. In short, I am obsessed with code and aim to continue to develop into the best developer I can be.</p>
                     <img src={hat} className="hat" />
                 </div>
             
