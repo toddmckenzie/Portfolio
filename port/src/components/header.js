@@ -9,7 +9,7 @@ const Header = () => {
     const executeScroll = () => {
         setTimeout(() => {
             window.scrollTo(0, 850)
-            Mixpanel.track("Home is clicked")
+            Mixpanel.track("Projects is clicked")
         },200)
        
     }
