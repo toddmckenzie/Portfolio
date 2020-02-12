@@ -5,13 +5,14 @@ import phone from '../img/phone.png';
 import portfolio from '../img/portfolio.png';
 import home from '../img/home.png';
 import man from '../img/man.png';
-
+import { Mixpanel } from './mixpanel.js';
 
 const BottomNav = () => {
 
     const executeScroll = () => {
         setTimeout(() => {
             window.scrollTo(0, 850)
+            Mixpanel.track("Projects clicked")
         }, 10)
        
     }
