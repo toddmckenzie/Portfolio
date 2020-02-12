@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './contact.css';
-
+import { Mixpanel } from './mixpanel.js';
 
 const Contact = () => {
 
     useEffect(() => {
         window.scrollTo(0,850)
+        Mixpanel.track("Contact clicked")
     })
 
     return (

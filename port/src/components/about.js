@@ -3,13 +3,14 @@ import './about.css';
 import family from '../img/family.png';
 import todd from '../img/todd.jpg';
 import hat from '../img/todd-hat.jpg';
-
+import { Mixpanel } from './mixpanel.js';
 
 
 const About = () => {
 
     useEffect(() => {
-        window.scrollTo(0,850)
+        window.scrollTo(0,850);
+        Mixpanel.track("About clicked.")
     })
 
     return (

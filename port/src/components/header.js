@@ -9,6 +9,7 @@ const Header = () => {
     const executeScroll = () => {
         setTimeout(() => {
             window.scrollTo(0, 850)
+            Mixpanel.track("Home is clicked")
         },200)
        
     }
@@ -16,7 +17,7 @@ const Header = () => {
     useEffect(() => {
         if (!flag){
            Mixpanel.track('someone is using') 
-           setFlag(true)
+           setFlag(!flag)
         }
         
     })
