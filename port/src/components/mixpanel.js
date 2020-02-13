@@ -3,7 +3,7 @@ mixpanel.init(process.env.REACT_APP_MIXPANEL);
 
 let env_check = process.env.NODE_ENV === 'production';
 
-
+//check id  ` 
 let actions = {
   
   identify: (id) => {
