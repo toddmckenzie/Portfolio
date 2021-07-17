@@ -5,7 +5,6 @@ import todd from '../img/todd.jpg';
 import hat from '../img/todd-hat.jpg';
 import { Mixpanel } from './mixpanel.js';
 
-
 const About = () => {
 
     useEffect(() => {
