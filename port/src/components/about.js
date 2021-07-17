@@ -12,7 +12,6 @@ const About = () => {
         window.scrollTo(0,850);
         Mixpanel.track("About clicked.");
     })
-    
 
     return (
         <div className="about">
