@@ -10,7 +10,7 @@ const About = () => {
 
     useEffect(() => {
         window.scrollTo(0,850);
-        Mixpanel.track("About clicked.")
+        Mixpanel.track("About clicked.");
     })
 
     return (
