@@ -4,7 +4,6 @@ import github from '../img/github.svg';
 import linkedin from '../img/linkedin.svg';
 
 const Footer = () => {
-    //test
     return (
         <div className="footer">
             <p className="copy">C 2021 Todd McKenzie</p>
