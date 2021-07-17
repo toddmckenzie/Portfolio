@@ -12,6 +12,7 @@ const About = () => {
         Mixpanel.track("About clicked.");
     })
 
+    
     return (
         <div className="about">
               <div className="about-para">
