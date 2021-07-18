@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1986acef.chunk.css",
+    "main.js": "/static/js/main.a3dd8ef5.chunk.js",
+    "main.js.map": "/static/js/main.a3dd8ef5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.120ba229.js",
+    "runtime-main.js.map": "/static/js/runtime-main.120ba229.js.map",
+    "static/js/2.f24409b5.chunk.js": "/static/js/2.f24409b5.chunk.js",
+    "static/js/2.f24409b5.chunk.js.map": "/static/js/2.f24409b5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.72f193a1e450b582509e8e531e353444.js": "/precache-manifest.72f193a1e450b582509e8e531e353444.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1986acef.chunk.css.map": "/static/css/main.1986acef.chunk.css.map",
+    "static/js/2.f24409b5.chunk.js.LICENSE": "/static/js/2.f24409b5.chunk.js.LICENSE",
+    "static/media/cloudstands.png": "/static/media/cloudstands.c51b75ec.png",
+    "static/media/code-un.jpg": "/static/media/code-un.985a93b4.jpg",
+    "static/media/db.png": "/static/media/db.41fd38cd.png",
+    "static/media/didact.png": "/static/media/didact.f7423ecb.png",
+    "static/media/family.png": "/static/media/family.ff40c165.png",
+    "static/media/github.svg": "/static/media/github.6feeb8f7.svg",
+    "static/media/home.png": "/static/media/home.d89bcacb.png",
+    "static/media/linkedin.svg": "/static/media/linkedin.94025d95.svg",
+    "static/media/man.png": "/static/media/man.adb782a2.png",
+    "static/media/phone.png": "/static/media/phone.ce5acf1d.png",
+    "static/media/todd-hat.jpg": "/static/media/todd-hat.cab4e23f.jpg",
+    "static/media/todd.jpg": "/static/media/todd.f39e3b89.jpg",
+    "static/media/tweet-better.png": "/static/media/tweet-better.a3e6256f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.120ba229.js",
+    "static/js/2.f24409b5.chunk.js",
+    "static/css/main.1986acef.chunk.css",
+    "static/js/main.a3dd8ef5.chunk.js"
+  ]
+}
