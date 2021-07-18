@@ -5,11 +5,11 @@
     "main.js.map": "/static/js/main.3717544d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a41c88e7.js",
     "runtime-main.js.map": "/static/js/runtime-main.a41c88e7.js.map",
-    "static/js/2.4bf60e9c.chunk.js": "/static/js/2.4bf60e9c.chunk.js",
-    "static/js/2.4bf60e9c.chunk.js.map": "/static/js/2.4bf60e9c.chunk.js.map",
+    "static/js/2.2cf4ed15.chunk.js": "/static/js/2.2cf4ed15.chunk.js",
+    "static/js/2.2cf4ed15.chunk.js.map": "/static/js/2.2cf4ed15.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.6cd4853e.chunk.css.map": "/static/css/main.6cd4853e.chunk.css.map",
-    "static/js/2.4bf60e9c.chunk.js.LICENSE.txt": "/static/js/2.4bf60e9c.chunk.js.LICENSE.txt",
+    "static/js/2.2cf4ed15.chunk.js.LICENSE.txt": "/static/js/2.2cf4ed15.chunk.js.LICENSE.txt",
     "static/media/cloudstands.7f202580.png": "/static/media/cloudstands.7f202580.png",
     "static/media/header.css": "/static/media/code-un.05b9636d.jpg",
     "static/media/db.89bb5528.png": "/static/media/db.89bb5528.png",
@@ -26,7 +26,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a41c88e7.js",
-    "static/js/2.4bf60e9c.chunk.js",
+    "static/js/2.2cf4ed15.chunk.js",
     "static/css/main.6cd4853e.chunk.css",
     "static/js/main.3717544d.chunk.js"
   ]
