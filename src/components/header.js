@@ -2,21 +2,18 @@ import React, { useEffect, useState } from 'react';
 import './header.css';
 import { Link } from 'react-router-dom';
 import code from '../img/code-un.jpg';
-import { Mixpanel } from './mixpanel.js'
 
 const Header = () => {
     const [ flag, setFlag ] = useState(false)
     const executeScroll = () => {
         setTimeout(() => {
             window.scrollTo(0, 850)
-            Mixpanel.track("Projects is clicked")
         },200)
        
     }
 
     useEffect(() => {
         if (!flag){
-           Mixpanel.track('someone is using') 
            setFlag(!flag)
         }
         
