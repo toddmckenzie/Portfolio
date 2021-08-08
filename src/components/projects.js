@@ -18,7 +18,7 @@ const Projects = () => {
                     The ultimate goal was so users could find a nearby storm shelter when severe weather is approaching. Users can also pull open a profile for their nearby shelter and comment on the status of the shelter.
                     </p>
                     <p>
-                    This mobile app was my first time working with React Native but it was a simple transition as it is so similar to ReactJs. You can access the app with the expo app at <a className="db-heading anchorT"href="https://expo.io/@toddmckenzie/dorothysbunker" target="_blank">expo.io/@toddmckenzie/dorothysbunker</a>.
+                    This mobile app was my first time working with React Native but it was a simple transition as it is so similar to ReactJs. You can access the app with the expo app at <a className="db-heading anchorT" href="https://expo.io/@toddmckenzie/dorothysbunker" target="_blank">expo.io/@toddmckenzie/dorothysbunker</a>.
                     </p>
                     <p>Github Code: <a href="https://github.com/SheltersBunkers/Frontend" className="db-heading" target="_blank" style={{fontSize: "26px", textDecoration: "underline"}}>Front End</a></p>
                     <p>Github Code: <a href="https://github.com/toddmckenzie/Maps-backend" className="db-heading" target="_blank"  style={{fontSize: "26px", textDecoration: "underline"}}>Back End</a></p>
