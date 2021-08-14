@@ -2,94 +2,46 @@
     padding-top: 100px;
     height: 100%;
     background-color: black;
+    color: white;
+  }
+  h1{
+      margin-bottom: 15px;
   }
  
-  .family {
-      max-width: 650px;
-      max-height: 400px;
-      width: 50%;
-      margin-left: 0px;
-      margin-top: 80px;
-      border-radius: 20px;
-      margin-right: 20px;
-  }
-.myphoto {
-    width: 350px;
-    height: 500px;
-    margin-right: 2%;
-    margin-left: 4%;
-    margin-top: 50px;
-    border-radius: 15px;
-}
-.about-para {
-    display: flex;
-    width: 100%;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-h2 {
-    color: white;
-    font-size: 40px;
-}
-.about-words {
-    width: 60%;
-    margin-right: 4%;
-}
-.bottom-words{
-    margin-top: 30px;
-    margin-right: 4%;
+ .aboutme-img {
+     width: 380px;
+     height: auto;
+     margin-left: 15px;
+     margin-right: 15px;
+     border-radius: 20px;
+ }
+ .aboutme-img-2 {
     width: 50%;
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
 }
-
-.hat {
-    width: 400px;
-    height: 500px;
-    margin-bottom: 60px;
-    border-radius: 15px;
-    margin-top: 30px;
-}
-.super-bottom-words{
-    width: 60%;
-    margin-top: 100px;
-    margin-right: 5%;
-}
+ .abt-flex{
+     display: flex;
+     flex-direction: row;
+     margin-top: 70px;
+     margin-bottom: 20px;
+ }
+ .words{
+     margin-right: 15px;
+     margin-left: 15px;
+ }
 
 @media (max-width: 600px){
-    .about-para {
+    .abt-flex{
         flex-direction: column;
-    }
-    .about-words {
-        width: 100%;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-    .myphoto {
-        width: 88%;
-        margin-right: 2%;
-        margin-top: 30px;
-    }
-    .family {
-        order: 1;
-        width: 96%;
-        height: auto;
-        margin-top: 30px;
-    }
-
-    .bottom-words {
-        width: 100%;
-        margin-left: 2%;
-        margin-right: 2%;
         margin-top: 10px;
+        margin-bottom: 20px;
     }
-    .super-bottom-words {
+    .mobile{
         width: 96%;
         margin-left: 2%;
-        margin-right: 2%;
-        margin-top: 50px;
-    }
-    .hat {
-        width: 96%;
         margin-right: 2%;
     }
 }
