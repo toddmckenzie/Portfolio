@@ -4,20 +4,12 @@ import { Link } from 'react-router-dom';
 import code from '../img/code-un.jpg';
 
 const Header = () => {
-    const [ flag, setFlag ] = useState(false)
     const executeScroll = () => {
         setTimeout(() => {
             window.scrollTo(0, 850)
         },200)
        
     }
-
-    useEffect(() => {
-        if (!flag){
-           setFlag(!flag)
-        }
-        
-    })
 
     return (
         <div className="header-wrapper">

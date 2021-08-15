@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './bottomnav.css';
 import phone from '../img/phone.png';
@@ -21,7 +21,7 @@ const BottomNav = () => {
                 <a className="bottom-anchors">
                     <Link to="/">
                     <div className="small-circle">
-                        <img src={home} className="home-img" />
+                        <img src={home} className="home-img" alt="home-icon"/>
                     </div>
                     <p className="bottom-anc-words-home bottom-hover">Home</p>
                     </Link>
@@ -31,7 +31,7 @@ const BottomNav = () => {
                 <a className="bottom-anchors" onClick={() => executeScroll()}>
                     <Link to="/">
                     <div className="small-circle">
-                        <img src={portfolio} className="port-img" />
+                        <img src={portfolio} className="port-img" alt="briefcase"/>
                     </div>
                     <p className="bottom-anc-words-projects bottom-hover">Projects</p>
                     </Link>
@@ -41,7 +41,7 @@ const BottomNav = () => {
             <a className="bottom-anchors">
                 <Link to="/about">
                     <div className="small-circle">
-                        <img src={man} className="man" />
+                        <img src={man} className="man" alt="man-icon"/>
                     </div>
                     <p className="bottom-anc-words-home bottom-hover">About</p>
                 </Link>
@@ -51,7 +51,7 @@ const BottomNav = () => {
                 <a className="bottom-anchors">
                     <Link to="/contact">
                     <div className="small-circle">
-                        <img src={phone} className="phone-img" />
+                        <img src={phone} className="phone-img" alt="phone-icon"/>
                     </div>
                     <p className="bottom-anc-words bottom-hover">Contact</p>
                     </Link>
