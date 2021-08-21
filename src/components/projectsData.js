@@ -16,7 +16,19 @@ const my_projects = [
     github_back: "https://github.com/toddmckenzie/Maps-backend"
 },
 {
-    id: 0,
+    id: 2,
+    title: 'Cloud Stands',
+    role: 'Full Stack Developer',
+    color: 0,
+    project_image: cloudstands,
+    about: ['Cloudstands was a 8 week Lambda Labs project with a team of 6 other developers, a UX designer, and a Team Lead. The first 2 weeks consisted of planning our feature canvases and the tech stack we would use. The next 6 weeks were spent coding to make a usable product.','Cloudstands is a website for small market owners and vendors to connect with each other. We built a site where the owner could put in the amount of booths the market had, the cost of the booths, and the days the market was open. The vendor could then access the site to rent booths from any market they wish to do business. The vendor could also view the other booths that were scheduled to be there that day in order to avoid competing in the same market with similar businesses.
+    My role on Cloudstands was as a full stack developer, responsible for building the Frontend layout and infrastructure. Site can be found at'],
+    link: 0,
+    github_front: 'https://github.com/labs14-market-organizer/frontend',
+    github_back: 'https://github.com/labs14-market-organizer/backend'
+},
+{
+    id: 3,
     title: 0,
     role:0,
     color: 0,
@@ -27,18 +39,7 @@ const my_projects = [
     github_back: 0
 },
 {
-    id: 0,
-    title: 0,
-    role:0,
-    color: 0,
-    project_image: 0,
-    about: [],
-    link: 0,
-    github_front: 0,
-    github_back: 0
-},
-{
-    id: 0,
+    id: 4,
     title: 0,
     role:0,
     color: 0,
