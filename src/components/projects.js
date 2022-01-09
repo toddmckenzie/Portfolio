@@ -32,7 +32,7 @@ const Projects = () => {
                         <h3 className="role">Full Stack Developer</h3>
                         <p>Cloudstands was a 8 week Lambda Labs project with a team of 6 other developers, a UX designer, and a Team Lead. The first 2 weeks consisted of planning our feature canvases and the tech stack we would use. The next 6 weeks were spent coding to make a usable product.</p>
                         <p>Cloudstands is a website for small market owners and vendors to connect with each other. We built a site where the owner could put in the amount of booths the market had, the cost of the booths, and the days the market was open. The vendor could then access the site to rent booths from any market they wish to do business. The vendor could also view the other booths that were scheduled to be there that day in order to avoid competing in the same market with similar businesses.
-                        My role on Cloudstands was as a full stack developer, responsible for building the Frontend layout and infrastructure. Site can be found at <a className="cloud-heading" href="https://www.cloudstands.com/landing" target="_blank">www.cloudstands.com</a></p>
+                        My role on Cloudstands was as a full stack developer, responsible for building the Frontend layout and infrastructure. Site is no longer live but code can be found below.
                         <p>Github Code: <a href="https://github.com/labs14-market-organizer" target="_blank" className="cloud-heading" style={{textDecoration: "underline"}}>Front End / Back End</a></p>
                     </div>
 
@@ -45,7 +45,7 @@ const Projects = () => {
                         <p>
                         The Didact project create a website that collects multiple online learning courses to create one comprehensive learning pathways for users. The team was able to use Udemy’s API to collect course information using each courses’ url. Users could also create their own learning pathways or manually plug in course data from other MOOC sites. 
                         </p>
-                        <p>As the Team Lead for this project, I lead daily standups to assess goals and workflow each morning. During these standups, the team would review our Trello board to align on tasks and methods. I also pair programmed with multiple developers to troubleshoot code issues, hooked up Mixpanel analytics, built the landing page, and provided assistance when needed. Site located at <a href="https://didactlms.com/landing" target="_blank" className="didact-heading">www.didactlms.com</a></p>
+                        <p>As the Team Lead for this project, I lead daily standups to assess goals and workflow each morning. During these standups, the team would review our Trello board to align on tasks and methods. I also pair programmed with multiple developers to troubleshoot code issues, hooked up Mixpanel analytics, built the landing page, and provided assistance when needed. Site is no longer live but code can be found below.</p>
                         <p>Github Code: <a href="https://github.com/Lambda-School-Labs/didact-fe" target="_blank" className="didact-heading" style={{fontSize: "26px", textDecoration: "underline"}}>Front End</a></p>
                         <p>Github Code: <a href="https://github.com/Lambda-School-Labs/didact-be" target="_blank" className="didact-heading" style={{fontSize: "26px", textDecoration: "underline"}}>Back End</a></p>
                     </div>
