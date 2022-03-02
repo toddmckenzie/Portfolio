@@ -2,11 +2,13 @@ import React, { useEffect, useState } from 'react';
 import './header.css';
 import { Link } from 'react-router-dom';
 import code from '../img/code-un.jpg';
+import { Mixpanel } from './mixpanel.js';
 
 const Header = () => {
     const executeScroll = () => {
         setTimeout(() => {
             window.scrollTo(0, 850)
+            Mixpanel.track("User")
         },200)
        
     }
