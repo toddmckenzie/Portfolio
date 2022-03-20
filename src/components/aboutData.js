@@ -30,7 +30,7 @@ const aboutMe = [
         id: 4,
         img: fsw,
         altImg: 'Florida Southwestern State College Logo',
-        paragraph: 'In November 2020 I took a position in Ft. Myers, FL as a Web Applications Developer for Florida SouthWestern State College.  At FSW I have had the opportunity learn new languages (PHP) and other frameworks (Code Igniter and Laravel).  I have had the chance to work with docker and am currently learning kubernetes.  The opportunity has allowed me to broaden my development experience and work with many experienced developers.'
+        paragraph: 'In November 2020 I took a position in Ft. Myers, FL as a Web Applications Developer for Florida SouthWestern State College.  At FSW I have had the opportunity learn new languages (PHP) and other frameworks (Code Igniter and Laravel).  The opportunity has allowed me to broaden my development experience and work with many experienced developers.'
     }
 ];
 
