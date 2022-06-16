@@ -13,7 +13,7 @@ const Contact = () => {
             <div className="contact-box">
                 <p className="phone">Phone: 314-605-0504</p>
                 <p className="email">Email: mckenzie2215@gmail.com</p>
-                <p className="github">Github: <a className="social" target="_blank" href="https://github.com/toddmckenzie">Check out my Github profile</a></p>
+                <p className="github">Github: <a className="social" target="_blank" rel="noreferrer" href="https://github.com/toddmckenzie">Check out my Github profile</a></p>
             </div>
         </div>
     )

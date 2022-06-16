@@ -30,7 +30,7 @@ const Header = () => {
                     <Link to="/contact">
                         <a className="firsta">Contact</a>
                     </Link>
-                    <a href="https://resume.creddle.io/resume/2g4qe4avbqb" target="_blank" className="firsta">Resume</a>
+                    <a href="https://resume.creddle.io/resume/2g4qe4avbqb" target="_blank" rel="noreferrer" className="firsta">Resume</a>
                 </div>
                 <h1 className="name">Todd McKenzie</h1>
                 <h3 className="web">Web Developer</h3>
